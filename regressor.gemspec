@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   # s.add_dependency 'shoulda-matchers', '~> 2.7.0', '>= 2.7.0', '>= 3.1.0'
-  s.add_dependency 'shoulda-matchers', '~> 2.7.0', '>= 3.1.0'
+  s.add_dependency 'shoulda-matchers', '>= 3.1.0'
   s.add_dependency 'faker', '~> 1.3'
   s.add_dependency 'rails'
 
